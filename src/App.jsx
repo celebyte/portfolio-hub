@@ -266,5 +266,3 @@ export default function PortfolioHub() {
 </div>
 );
 }
-
-export default PortfolioHub;
