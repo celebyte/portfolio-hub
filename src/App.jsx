@@ -241,9 +241,9 @@ export default function PortfolioHub() {
           </p>
 
           <div className="space-y-4 text-lg text-zinc-300">
-            <p>📧 seuemail@email.com</p>
-            <p>💼 LinkedIn</p>
-            <p>💻 GitHub</p>
+            <p>📧 avilinosilveira@gmail.com</p>
+            <p>💼 LinkedIn href="https://www.linkedin.com/in/ana-cele-871bb73b2/"</p>
+            <p>💻 GitHub href="https://github.com/celebyte"</p>
           </div>
         </div>
       </section>
