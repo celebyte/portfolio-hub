@@ -228,35 +228,43 @@ export default function PortfolioHub() {
       </section>
 
       {/* CONTATO */}
-      <section
-        className="px-8 py-24 border-t border-zinc-800 text-center"
-        id="contato"
+<section
+  className="px-8 py-24 border-t border-zinc-800 text-center"
+  id="contato"
+>
+  <div className="max-w-3xl mx-auto">
+    <h2 className="text-4xl font-bold mb-6">Contato</h2>
+
+    <p className="text-zinc-300 mb-10 leading-8">
+      Estou aberta a oportunidades de estágio, networking e novos
+      projetos.
+    </p>
+
+    <div className="space-y-4 text-lg text-zinc-300">
+      <p>📧 avilinosilveira@gmail.com</p>
+
+      <a
+        href="https://www.linkedin.com/in/ana-cele-871bb73b2/"
+        target="_blank"
+        rel="noreferrer"
+        className="block hover:text-cyan-400"
       >
-        <div className="max-w-3xl mx-auto">
-  <h2 className="text-4xl font-bold mb-6">Contato</h2>
+        💼 LinkedIn
+      </a>
 
-  <p className="text-zinc-300 mb-10 leading-8">
-    Estou aberta a oportunidades de estágio, networking e novos
-    projetos.
-  </p>
-
-  <div className="space-y-4 text-lg text-zinc-300">
-    <p>📧 avilinosilveira@gmail.com</p>
-
-    <a
-      href="https://www.linkedin.com/in/ana-cele-871bb73b2/"
-      target="_blank"
-      className="block hover:text-cyan-400"
-    >
-      💼 LinkedIn
-    </a>
-
-    <a
-      href="https://github.com/celebyte"
-      target="_blank"
-      className="block hover:text-cyan-400"
-    >
-      💻 GitHub
-    </a>
+            <a
+        href="https://github.com/celebyte"
+        target="_blank"
+        rel="noreferrer"
+        className="block hover:text-cyan-400"
+      >
+        💻 GitHub
+      </a>
+    </div>
   </div>
+</section>
 </div>
+);
+}
+
+export default PortfolioHub;
