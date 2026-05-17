@@ -240,10 +240,23 @@ export default function PortfolioHub() {
             projetos.
           </p>
 
-          <div className="space-y-4 text-lg text-zinc-300">
+          className="space-y-4 text-lg text-zinc-300">
             <p>📧 avilinosilveira@gmail.com</p>
-            <p>💼 LinkedIn href="https://www.linkedin.com/in/ana-cele-871bb73b2/"</p>
-            <p>💻 GitHub href="https://github.com/celebyte"</p>
+            <a
+  href="https://www.linkedin.com/in/ana-cele-871bb73b2/"
+  target="_blank"
+  className="block hover:text-cyan-400"
+>
+  💼 LinkedIn
+</a>
+
+<a
+  href="https://github.com/celebyte"
+  target="_blank"
+  className="block hover:text-cyan-400"
+>
+  💻 GitHub
+</a>
           </div>
         </div>
       </section>
